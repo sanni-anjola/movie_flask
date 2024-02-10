@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-mongoengine = {ref = "1.0.2", git = "git+https://github.com/idoshr/flask-mongoengine.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
